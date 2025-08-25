@@ -9,9 +9,8 @@ Again, most of the heavylifting was done by Random Nerd Tutorials in integrating
 Here I edited the Javascript, HTML, and CSS files to fit my version of the project. This included me adding some code in the Javascript files to process the extra variables and follow along with the code that was already there on how to process the new variables. Then in the HTML file, I also followed the code that was already there on how to handle the new variables and modified it so that it can show the four variables and their respective charts, gauges, and graphs. 
 
 I know this was a lot for me to process and learn to handle when I first starting doing this project but if anyone wishes to recreate this project and would like some more direction, please email me or use ChatGPT/any AI chat model as it was a super useful tool when learning what the next step was or what an error meant when I got them! 
+![code layout](https://github.com/user-attachments/assets/62fa9d6b-fddf-4150-8370-052c49a2352f)
 
-![Code Pic 1](https://github.com/user-attachments/assets/5c79852c-7a1c-43f0-9094-0ac57160878f)
+![serial monitor](https://github.com/user-attachments/assets/b4588ebf-cb1a-46c3-94aa-de85b6b839c8)
 
-![Demo Pic 1](https://github.com/user-attachments/assets/96cc00fd-068b-475e-89ee-a041c8750bf0)
-
-![Demo Pic 2](https://github.com/user-attachments/assets/2de52602-d0c0-4be4-bcd3-2238b5ab5dee)
+![full layout](https://github.com/user-attachments/assets/e7807e21-c6ca-4c99-ad75-ef9a1a11b434)
