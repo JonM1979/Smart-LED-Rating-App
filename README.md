@@ -1,12 +1,25 @@
-# Smart-LED-Rating-Web-App
-This web app tracks current, voltage, and power consumption through an INA219 and uses an ESP32 to send those values to a Firebase Database to then display on a web app. I also created a value called an Energy Rating Score (ERS) as a metric to quantify if an LED is working the best it possibly can. I recorded current, voltage, and power values from 3 different branded 12V LED lightbulbs; Ziomitus, Haian, and KONPWAY lightbulbs to train a machine learning algorithm to give an LED connected to the circuit an ERS score based on the current, voltage, and power values it is currently reading. 
+# Circuit Diagram 
+I used an ESP32-WROOM-C and an INA219 sensor for this project. The ESP32 is a perfect microcontroller for this project as it already has WiFi capabilities already installed and is easily compatible with the Arduino IDE. Using I2C for data communication, I connect the VIN+ to the positive line of my power supply, then connect that through the anode/+ leg of the LED. The cathode/- leg of the LED is then connected to the GND pin of the ESP32 and the GND of the power supply; the GND pin of the ESP32 must be used so that it can read the sensor data. I color matched the diagram to the actual physical board so that it can be easier to follow. Now the ESP32 and INA219 should be reading the current, voltage, and power values from whatever LED or LED lightbulb that is connected to the circuit! 
 
-In the schematic section I show the electric schematic that goes with this project and show an image of how the circuit looks physically in person. 
+I've also included the various links for materials that were used in this project!
 
-In the coding section, I include all the code that I used, go into detail behind the process of developing the code, and more detail behind how the ERS score works in the context of this project. (the majority of the project details are in this section)
+[ESP32](https://www.amazon.com/dp/B0D8T53CQ5?ref=ppx_yo2ov_dt_b_fed_asin_title)
 
-The conclusion/demo section includes my concluding thoughts on the project and a video that shows the web app working alongside the circuitry! 
+[INA219](https://www.amazon.com/dp/B0CRKGQJ8P?ref=ppx_yo2ov_dt_b_fed_asin_title)
 
-![Circuit Demo](https://github.com/user-attachments/assets/b48e60ab-fc92-40b5-82c8-3ebe4bef0220)
+[Wires](https://www.amazon.com/dp/B01EV70C78?ref=ppx_yo2ov_dt_b_fed_asin_title)
 
-![Circuit Demo 3](https://github.com/user-attachments/assets/e1802c0c-1e99-475a-af43-ed3542098fbc)
+[Breadboards](https://www.amazon.com/dp/B07DL13RZH?ref=ppx_yo2ov_dt_b_fed_asin_title)
+
+[KONPWAY Lightbulb](https://www.amazon.com/dp/B075XZ3CTL?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
+
+[Haian Lightbulb](https://www.amazon.com/dp/B081DG1L2X?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
+
+[Ziomitus G4 RV Ceiling LED](https://www.amazon.com/dp/B0D2CVC9H9?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
+
+(I don't have a link for the alligator clips that I used since I had those laying around)
+
+<img width="908" height="537" alt="Circuit Diagram" src="https://github.com/user-attachments/assets/c0152526-3099-4d24-8e8b-8d260d4d79e6" />
+
+
+![Circuit Example](https://github.com/user-attachments/assets/7c5f426e-a11f-4e05-ad19-f35159b94b6c)
