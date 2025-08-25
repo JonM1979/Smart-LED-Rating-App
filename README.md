@@ -6,4 +6,11 @@ The biggest hurdle that I had to deal with was writing the machine learning aspe
 
 After that I just had to implement the rest of the code for the frontend of the web app by adding the code to support the ESP32 sending the ERS value. Once the code was changed in the proper files, the project was done! Again this project was a great foundation in getting an idea in what the workflow is in embedded systems. From the circuit design to the software aspect, this taught me new skills in frontend and backend development, using a microcontroller with WiFi capabilities, integrating it with a web app host through Firebase, and heavily taught me the workflow of developing a machine learning model. I think it even still has room for improvment in the sense of training the model, handling edge cases better, adding concrete anomly detection in the code, and making the web app more professional. I encourage those who are interested in embedded systems and projects like these to take the first step in learning about it, I went in not knowing much about the topics this project cover as it seems daunting at first but with some time and effort, one can really enjoy the process of learning about the capabilities of today's technology and being able to apply it to real world situations. Then special thanks to Random Nerd Tutorials as I used a lot of their work in this project, please check them out as they have many, many projects related to this topic! 
 
-[Here is the video for the demo of the project!]()
+<p align="center">
+  <a href="https://youtu.be/NAHsodVU-00?si=uH3kYljfsDTBL7qZ">
+    <img src="https://img.youtube.com/vi/NAHsodVU-00/0.jpg" width="400" />
+  </a>
+</p>
+
+Click the thumbnail for the demo video!
+
