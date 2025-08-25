@@ -19,7 +19,6 @@ I've also included the various links for materials that were used in this projec
 
 (I don't have a link for the alligator clips that I used since I had those laying around)
 
-<img width="908" height="537" alt="Circuit Diagram" src="https://github.com/user-attachments/assets/c0152526-3099-4d24-8e8b-8d260d4d79e6" />
+<img width="1530" height="917" alt="schematic" src="https://github.com/user-attachments/assets/1b50ef4d-c755-4278-9f5a-a4addd783c84" />
 
-
-![Circuit Example](https://github.com/user-attachments/assets/7c5f426e-a11f-4e05-ad19-f35159b94b6c)
+![board layout](https://github.com/user-attachments/assets/60e91235-71e5-4501-9a84-869a6c0bcdc2)
