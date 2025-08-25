@@ -7,6 +7,6 @@ In the coding section, I include all the code that I used, go into detail behind
 
 The conclusion/demo section includes my concluding thoughts on the project and a video that shows the web app working alongside the circuitry! 
 
-![Circuit Demo](https://github.com/user-attachments/assets/b48e60ab-fc92-40b5-82c8-3ebe4bef0220)
+![Circuit Example 1](https://github.com/user-attachments/assets/b6d137b0-6c8e-493e-8118-b61368767403)
 
-![Circuit Demo 3](https://github.com/user-attachments/assets/e1802c0c-1e99-475a-af43-ed3542098fbc)
+![Layout 1](https://github.com/user-attachments/assets/736a78d1-fef9-455c-a33a-764bab22f5bc)
